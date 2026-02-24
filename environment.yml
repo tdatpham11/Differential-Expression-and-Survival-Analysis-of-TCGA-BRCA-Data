@@ -1,0 +1,17 @@
+name: brca_transcriptomics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - r-base=4.2
+  - r-essentials
+  - bioconductor-deseq2
+  - bioconductor-tcgabiolinks
+  - bioconductor-clusterprofiler
+  - r-ggplot2
+  - r-pheatmap
+  - pandas
+  - scikit-learn
+  - jupyter
