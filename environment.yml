@@ -1,4 +1,4 @@
-name: brca_transcriptomics
+name: brca_subtyping_env
 channels:
   - conda-forge
   - bioconda
@@ -6,12 +6,9 @@ channels:
 dependencies:
   - python=3.9
   - r-base=4.2
-  - r-essentials
-  - bioconductor-deseq2
-  - bioconductor-tcgabiolinks
-  - bioconductor-clusterprofiler
+  - r-deseq2
   - r-ggplot2
   - r-pheatmap
-  - pandas
-  - scikit-learn
-  - jupyter
+  - r-vsn
+  - r-matrixstats
+  - r-ggrepel
